@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array Mathod</title>
+</head>
+<body>
+    <h1>JavaScript Array Methods</h1>
+    <p id="res"></p>
+    <script>
+        const stu=["Ashok","Rajesh","Suresh","Rajat"];
+        stu[1]="Kanvya";
+        let str="<ul>";
+            stu.forEach(myFun);
+            str=str+"</ul>"
+        function myFun(value){
+            str= str+"<li>" + value + "</li>";
+        }
+        // document.getElementById('res').innerHTML=str;
+        // document.getElementById('res').innerHTML=stu.length;
+        // document.getElementById('res').innerHTML=stu.toString();
+        document.getElementById('res').innerHTML=stu.join("*");
+
+    </script>
+</body>
+</html>

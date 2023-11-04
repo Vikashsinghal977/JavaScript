@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String</title>
+</head>
+<body>
+    <h1>String Methods & Search</h1>
+    <p id="res"></p>
+    <script>
+        let str="I am learning JavaScript String Methods";
+        let str2="hello"
+        // ===============String sliceing=======
+        // let x=str.slice(5,9);
+        // let x=str.slice(8,16);
+        // let x=str.slice(-12,-3);
+        // ================Substring============
+        // let x=str.substr(12,3);
+        // ================replace=============
+        // let x=str.replace("JavaScript","javascripts");
+        // ==================lower case=========
+        // let x=str.toLocaleLowerCase();
+        // ===================upper case
+        // let x=str.toLocaleUpperCase();
+        //=====================padstart()
+        let x=str2.padStart(4,"0");
+
+        // document.getElementById("res").innerHTML=str.length; 
+        document.getElementById('res').innerHTML=x;
+    </script>
+</body>
+</html>
