@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Reguler Exp.</title>
+</head>
+<body>
+    <h3>A regular expression is a chracters that forms a search pattern</h3>
+    <h3>The search pattern can be used for text search and text replace operations.</h3>
+    <p id="res"></p>
+    <script>
+        let str="I am learing JavaScript and regular expression and string";
+        // let n=str.search(/Learing/i);
+        let n=str.replace(/Learing/i,"learn");
+        document.getElementById("res").innerHTML=n;
+    </script>
+</body>
+</html>
